@@ -1,0 +1,75 @@
+#firstRow{
+  /*background-color: orange;*/
+  background-image: url("http://www.foodanddine.com/wp-content/uploads/2016/01/tacos.jpg");
+}
+#secondRow{
+  /*background-color: orange;*/
+  background-image: url("https://www.chowstatic.com/assets/recipe_photos/11-10-14/28514_breakfast_tacos.jpg");
+}
+
+.fixed-bg {
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Start of Navigation Stuff*/
+
+.nav-pills{
+  display: flex;
+  /*background-color: red;*/
+}
+
+.navLink{
+  color: darkblue;
+  font-family: helvetica;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/*Start of Top Page*/
+
+#topPage{
+  background-image:
+  url("https://static1.squarespace.com/static/57b9ff99d482e9b69b8786a1/t/57ba02d92994cac731b24577/1471808231750/IMG_1908.JPG?format=1500w");
+  margin-top: -10%;
+  margin-bottom: 20%;
+  height: 800px;
+  background-position: bottom;
+  border-bottom: solid 10px;
+  border-color: black;
+}
+
+#topPage h3{
+  display: flex;
+  padding-left: 40%;
+  padding-top: 20%;
+  font-size: 78px;
+  color: white;
+
+}
+
+/*Start of Location Page*/
+
+.locationPage{
+  /*background-image: url("https://static1.squarespace.com/static/57b9ff99d482e9b69b8786a1/t/57ba02d92994cac731b24577/1471808231750/IMG_1908.JPG?format=1500w");*/
+  background-color: darkgreen;
+  color: white;
+  height: 800px;
+  margin-bottom: 20%;
+  border-bottom: solid 10px;
+  border-top: solid 10px;
+  border-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.locationPage img{
+  height: 300px;
+}

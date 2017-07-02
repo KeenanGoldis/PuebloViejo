@@ -4,9 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Checkpoint 2</title>
+
+    <!--bootstrap CSS-->
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!--these are my styles-->
+      <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <!--these are my google fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <script type="text/javascript" src="javascript.js"></script>
 </head>
+<!-- End of Head -->
+
 <body>
-  <h1>TestyMcTesterson</h1>
+  <header>
+    <nav class="navbar navbar-static-top" role="navigation">
+      <div class="container-fluid">
+    <!-- Collect the nav links for toggling -->
+        <div class="collapse navbar-collapse navbar-static-top">
+          <ul class="nav nav-pills">
+            <li>
+              <a class="navLink" href="#hero">Home</a>
+            </li>
+            <li>
+              <a class="navLink" href="#about">About</a>
+            </li>
+            <li>
+              <a class="navLink" href="#media">Media</a>
+            </li>
+            <li>
+              <a class="navLink" href="#menu">Menu</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </header>
+
+<!-- END OF HEADER -->
+<!-- MAIN PAGE -->
+
+  <main>
+    <!-- <div> -->
+      <div class="container-fluid">
+        <div class="row fixed-bg" id="firstRow">
+          <div class="col-md-12 responsive-img" id="topPage">
+            <h3>Pueblo Viejo</h3>
+          </div>
+        </div>
+      </div>
+
+    <!-- END OF MAIN PAGE -->
+    <!-- START OF LOCATIONS -->
+
+      <div class="container-fluid">
+        <div class="row fixed-bg" id="secondRow">
+          <div class="col-md-6 responsive-img locationPage" id="restLocPage">
+            <h3>Our <em>New</em> Restaurant!</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcrgKYN1huUYO1vk-dZit57GBteBZzbmXNhbkaajeXvsCCLjTW" alt="Pueblo Viejo Restaurant">
+          </div>
+          <div class="col-md-6 responsive-img locationPage" id="trailerLocPage">
+            <h3>Food Trailer</h3>
+            <div id='closedTrailer'>
+              <h4>Sorry, we're CLOSED right now.</h4>
+            </div>
+            <div id='openTrailer'>
+              <h4>We're OPEN right now!</h4>
+            </div>
+            <img src="https://s3-media3.fl.yelpcdn.com/bphoto/VAPwQMi0i-BLj9DP6klBVw/348s.jpg" alt="Pueblo Viejo Food Truck">
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+    <div class="jumbotron" id="testimonial">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 responsive-img">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron" id="wine">
+      <div class="container-fluid">
+
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- these are my JavaScript files -->
+
+   <!-- JQuery CDN script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </body>
 </html>
