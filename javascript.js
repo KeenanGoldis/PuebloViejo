@@ -36,19 +36,19 @@ $(document).ready(function(){
 
   function highlightTodaysDay(dayDeclare){
     if(theDay === 'Sunday'){
-      $('#sun h6').css("color", "green");
+      $('#sun h6').css("color", "lime");
     } else if(theDay === 'Monday'){
-      $('#mon h6').css("color", "green");
+      $('#mon h6').css("color", "lime");
     } else if(theDay === 'Tuesday'){
-      $('#tue h6').css("color", "green");
+      $('#tue h6').css("color", "lime");
     } else if(theDay === 'Wednesday'){
-      $('#wed h6').css("color", "green");
+      $('#wed h6').css("color", "lime");
     } else if(theDay === 'Thursday'){
-      $('#thu h6').css("color", "green");
+      $('#thu h6').css("color", "lime");
     } else if(theDay === 'Friday'){
-      $('#fri h6').css("color", "green");
+      $('#fri h6').css("color", "lime");
     } else if(theDay === 'Saturday'){
-      $('#sat h6').css("color", "green");
+      $('#sat h6').css("color", "lime");
     } else {
       console.log('something went wrong');
     }

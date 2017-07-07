@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "tacos";
+  src:url("../fonts/TACOSRG_.TTF") format("truetype");
+}
+
 #firstRow{
   /*background-color: orange;*/
   background-image: url("http://www.foodanddine.com/wp-content/uploads/2016/01/tacos.jpg");
@@ -9,6 +14,10 @@
 #thirdRow{
   /*background-color: orange;*/
   background-image: url("http://ppcorn.com/us/wp-content/uploads/sites/14/2016/04/Guanajuato-ppcorn.jpg");
+}
+
+body{
+  font-family: tacos;
 }
 
 .fixed-bg {
@@ -31,32 +40,36 @@
 
 .navLink{
   color: white;
-  font-family: helvetica;
-  font-size: 36px;
+  font-family: tacos;
+  font-size: 32px;
   font-weight: bold;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /*Start of Top Page*/
 
 #topPage{
   background-image:
-  url("https://static1.squarespace.com/static/57b9ff99d482e9b69b8786a1/t/57ba02d92994cac731b24577/1471808231750/IMG_1908.JPG?format=1500w");
+  url("https://burlythere.files.wordpress.com/2015/07/img_0071.jpg?w=618&h=464");
+  display: flex;
+  align-items: center;
+  text-align: center;
   margin-top: -10%;
   margin-bottom: 20%;
   height: 800px;
   background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-bottom: solid 10px;
   border-color: black;
 }
 
-#topPage h3{
-  display: flex;
-  padding-left: 40%;
-  padding-top: 20%;
-  font-size: 78px;
+#topPage h1{
+  padding-left: 15%;
+  font-size: 220px;
   color: white;
+  opacity: 0.8;
 
 }
 
@@ -85,7 +98,7 @@
 }
 
 .openClosed h4{
-  color: white;
+  color: yellow;
   font-size: 30px;
 }
 
@@ -110,11 +123,13 @@
 
 .hoursOfOp h5{
   font-size: 30px;
-  color: white;
+  color: lime;
 }
 .hoursOfOp h6{
   font-size: 26px;
   color: white;
+  font-family: sans-serif !important;
+
 }
 
 /*Start of media Section*/
@@ -138,21 +153,38 @@
    flex-direction: column;:
  }
 
-#mediaTitle{
-  color: white;
+.mediaTitle{
+  color: lime;
   display: flex;
   justify-content: center;
+  font-family: tacos;
 }
 
 #medLinks h6 a{
-  color: white;
+  color: blue;
   font-size: 40px;
   padding-left: 15%;
+  font-family: tacos;
+
 }
 
 .mediaLinks h6 {
   margin-top: 50px;
 }
+
+#socialMedia{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+}
+
+#socialMediaLinks{
+  font-size: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
 
 /*End of Media Section*/
 /*Start of Our Story Section*/
@@ -162,6 +194,10 @@
   color: white;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+#ourStory{
+  font-family: helvetica;
 }
 
 #ourStoryPics img{
