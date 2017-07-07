@@ -12,6 +12,7 @@ $(document).ready(function(){
   let theDay = '';
   let theTime = '';
 
+//This translates the day number into a string.
   function dayDeclare(day){
     if(day <= 0){
       theDay = 'Sunday'
@@ -32,6 +33,27 @@ $(document).ready(function(){
     };
   };
   dayDeclare(day);
+
+  function highlightTodaysDay(dayDeclare){
+    if(theDay === 'Sunday'){
+      $('#sun h6').css("color", "green");
+    } else if(theDay === 'Monday'){
+      $('#mon h6').css("color", "green");
+    } else if(theDay === 'Tuesday'){
+      $('#tue h6').css("color", "green");
+    } else if(theDay === 'Wednesday'){
+      $('#wed h6').css("color", "green");
+    } else if(theDay === 'Thursday'){
+      $('#thu h6').css("color", "green");
+    } else if(theDay === 'Friday'){
+      $('#fri h6').css("color", "green");
+    } else if(theDay === 'Saturday'){
+      $('#sat h6').css("color", "green");
+    } else {
+      console.log('something went wrong');
+    }
+  }
+  highlightTodaysDay();
 
   function hourMinDeclare(hourDeclare, minDeclare){
     let theHour = ''
@@ -153,16 +175,7 @@ $(document).ready(function(){
         $("#openTrailer").hide();
       }
     }
-      yesWeAreOpen();
-
-
-
-    // This unhides the text when overing over img
-
-
-    //this hides the image when hovered over
-
-
+    yesWeAreOpen();
 
   }
   hourMinDeclare();
